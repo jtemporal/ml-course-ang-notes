@@ -11,6 +11,7 @@ All the files have an index at the begin of its name so you can know which one t
 ## Repo structure
 
 ├── code/            -> Code files directory, all `.m` files are in here
+├── images/          -> Images directory, all generated plots are saved as images in here
 ├── LICENSE          -> License for this repo
 ├── README.md        -> Read me file with few useful info
 └── notes.md         -> study notes that aren't necessarily code
