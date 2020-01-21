@@ -19,3 +19,16 @@ A =
 ```
 
 We also use semicolons to denote the "break line" when assigning a matrix to a variable.
+
+## Vectors
+
+Values on a vector are separated by spaces, same thing with matrices.`
+
+```octave
+v = [ 1 2 3 ]
+v =
+
+   1   2   3
+
+>>
+```
