@@ -12,6 +12,7 @@ All the files have an index at the begin of its name so you can know which one t
 
 ├── code/            -> Code files directory, all `.m` files are in here
 ├── images/          -> Images directory, all generated plots are saved as images in here
+├── data/            -> Data directory, all generated data and input data are saved as images in here
 ├── LICENSE          -> License for this repo
 ├── README.md        -> Read me file with few useful info
 └── notes.md         -> study notes that aren't necessarily code
