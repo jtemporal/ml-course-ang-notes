@@ -1,5 +1,8 @@
 # Some notes
 
+## Code style
+
+Octave's code style is [available here](https://wiki.octave.org/Octave_style_guide).
 
 ## Semicolon
 
