@@ -45,3 +45,24 @@ v =
 ## Saving data
 
 When using the `save` function octave is smart enough to understand what to do with your data, for example if run `save 'identity_mat_4.mat' A;` it will save the matrix A into a binary compressed file. If you want it in an human readble format. set the file name to end in something like `.txt` and use the flag `-ascii`.
+
+## Element-wise operations
+
+We use the `.` to represent element-wise operations.
+
+```octave
+>> A = [1 2; 3 4; 5 6];
+>> B = [11, 24; 39, 56; 75, 96];
+>> A.*B
+ans =
+
+    11    48
+   117   224
+   375   576
+>> A.^2
+ans =
+
+    1    4
+    9   16
+   25   36
+```
