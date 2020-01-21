@@ -16,7 +16,7 @@
 
 1 == 2  % false     ans = 0
 
-1 ~= 2  % true      ans = 1
+1 != 2  % true      ans = 1 obs: the Octave style guide says to use ! instead of ~
 
 % logic operations
 
