@@ -2,13 +2,13 @@
 
 % basic math operations
 
-10 - 2  % sub
+10-2  % sub
 
-20 + 30  % sum
+20+30  % sum
 
-3 * 2  % mult
+3*2  % mult
 
-4 / 2  % div
+4/2  % div
 
 2^2  % power
 
@@ -24,4 +24,4 @@
 
 1 || 0  % OR            ans = 1
 
-xor(1, 0) % XOR     ans = 1
+xor (1, 0) % XOR     ans = 1
