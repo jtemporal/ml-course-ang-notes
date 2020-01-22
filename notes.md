@@ -72,3 +72,16 @@ ans =
 Much like R and Python we can use `subplot ()` and `axis ()` to set the more than one plot to the same figure.
 
 Octave will overwrite the plots you generate unless you tell it to write the second plot on the same figure with the `hold on` command (remember to use close after you finish "holding on") or use the function `figure (<index>)` giving it the index so you can have more than one figure being displayed simultaneously.
+
+## Chaining commands
+
+There's a way to run a lot of commands on the same time and also printing it's results by using comma chaining.
+
+```octave
+>> a = 1, b = 2, c = 3
+a = 1
+b = 2
+c = 3
+```
+
+This is different than have each command followed by `;` since that won't print anything out.
