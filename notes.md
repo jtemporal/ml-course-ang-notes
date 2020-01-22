@@ -66,3 +66,9 @@ ans =
     9   16
    25   36
 ```
+
+## Plotting
+
+Much like R and Python we can use `subplot ()` and `axis ()` to set the more than one plot to the same figure.
+
+Octave will overwrite the plots you generate unless you tell it to write the second plot on the same figure with the `hold on` command (remember to use close after you finish "holding on") or use the function `figure (<index>)` giving it the index so you can have more than one figure being displayed simultaneously.
