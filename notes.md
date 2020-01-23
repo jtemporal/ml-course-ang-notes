@@ -85,3 +85,49 @@ c = 3
 ```
 
 This is different than have each command followed by `;` since that won't print anything out.
+
+## Identation
+
+Octave doesn't care about identation, but you should use 2 space to improve readbility.
+
+
+```octave
+>> v = zeros (10,1);
+>> for i = 1:10,
+>    v(i) = 2^i;
+>  end;
+>> v
+v =
+
+      2
+      4
+      8
+     16
+     32
+     64
+    128
+    256
+    512
+   1024
+
+>> i = 1;
+>> while i <= 5,
+>    v(i) = 100;
+>    i = i+1;
+>  end;
+>> v
+v =
+
+    100
+    100
+    100
+    100
+    100
+     64
+    128
+    256
+    512
+   1024
+
+>>
+```
