@@ -73,6 +73,21 @@ Much like R and Python we can use `subplot ()` and `axis ()` to set the more tha
 
 Octave will overwrite the plots you generate unless you tell it to write the second plot on the same figure with the `hold on` command (remember to use close after you finish "holding on") or use the function `figure (<index>)` giving it the index so you can have more than one figure being displayed simultaneously.
 
+## Defining functions
+
+You do that by creating a file with the name of the function you want plus the octav extension `.m`.
+
+The way to define functions is using the protected word `function` followed by the returned variable equals the name of the function folowed by parentesis with the arguments said function should receive. on the next lines should come the function logic.
+
+```octave
+% function plusTwo
+% it adds two to a received value
+
+function y = plusTwo(x)
+
+y = x+2;
+```
+
 ## Chaining commands
 
 There's a way to run a lot of commands on the same time and also printing it's results by using comma chaining.
